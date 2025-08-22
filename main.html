@@ -1,11 +1,78 @@
-<!DOCTYPE html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Navbar and Audio Section</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      nav {
+        background-color: #2c3e50;
+        padding: 10px 20px;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 20px;
+      }
+      nav li {
+        display: inline;
+      }
+      nav a {
+        color: #ecf0f1;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      nav a:hover {
+        text-decoration: underline;
+      }
+      main {
+        padding: 20px;
+      }
+      h2 {
+        margin-bottom: 15px;
+      }
+      audio {
+        display: block;
+        margin-bottom: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Part 1: Navbar -->
+    <nav>
+      <ul>
+        <li><a href="https://example.com/home">Home</a></li>
+        <li><a href="https://example.com/about">About</a></li>
+        <li><a href="https://example.com/contact">Contact</a></li>
+      </ul>
+    </nav>
 
-<html>
+    <!-- Part 2: Audio Section -->
+    <main>
+      <h2>3 random audios</h2>
+      <audio controls>
+        <source src="http://commondatastorage.googleapis.com/codeskulptor-demos/DDR_assets/Kangaroo_MusiQue_-_The_Neverwritten_Role_Playing_Game.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+      <audio controls>
+        <source src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+      </audio>
+      <audio controls>
+        <source src="http://codeskulptor-demos.commondatastorage.googleapis.com/pang/paza-moduless.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </main>
+  </body>
+</html>
 
-<head>
-	<link rel="stylesheet" href="styles.css">
-	<title>Navigation and Audio Example</title>
-</head>
 
 <body>
 	<!-- the entire body must be written by student -->
